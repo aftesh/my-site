@@ -1,13 +1,17 @@
-html, body {
-    height: 100%;
+* {
     margin: 0;
+    padding: 0;
 }
 body {
-    background: #250025;
+    background: #200020;
+    min-height: 100vh;
 }
-h1 {
-    color: #b801b8;
+h1, h2, p {
+    font-family: monospace;
+    color: #830000;
+    font-weight: bolder;
+    text-align: center;
 }
-p {
-    
+img {
+    align-self: center;
 }
